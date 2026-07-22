@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Events - Inquisitors</title>
+</head>
+<body>
+
+    <header>
+        <h1>Upcoming Events</h1>
+        <nav>
+            <p>
+                <a href="index.html">Home</a> | 
+                <a href="about.html">About</a> | 
+                <a href="services.html">Services</a> | 
+                <a href="projects.html">Projects</a> | 
+                <a href="events.html">Events</a> | 
+                <a href="career.html">Career</a> | 
+                <a href="contact.html">Contact</a>
+            </p>
+        </nav>
+    </header>
+
+    <hr>
+
+    <main>
+        <section>
+            <h2>Event Schedule</h2>
+            <table border="1">
+                <tr>
+                    <th>Date</th>
+                    <th>Title</th>
+                    <th>Location</th>
+                    <th>Action</th>
+                </tr>
+                <tr>
+                    <td>Sep 15</td>
+                    <td>Pop Culture Trivia Night</td>
+                    <td>Student Union Rm 12</td>
+                    <td><a href="#register">Sign Up</a></td>
+                </tr>
+                <tr>
+                    <td>Oct 02</td>
+                    <td>Intro to Python &amp; AI</td>
+                    <td>CS Lab 3</td>
+                    <td><a href="#register">Sign Up</a></td>
+                </tr>
+            </table>
+        </section>
+
+        <section id="register">
+            <h2>Register for an Event</h2>
+            <form action="#" method="post">
+                <p><label>Your Name:<br> <input type="text" name="name" required></label></p>
+                <p><label>Student Email:<br> <input type="email" name="email" required></label></p>
+                <p>
+                    <label>Choose Event:<br>
+                        <select name="event_name">
+                            <option value="trivia">Pop Culture Trivia Night</option>
+                            <option value="python">Intro to Python &amp; AI</option>
+                        </select>
+                    </label>
+                </p>
+                <p>
+                    Attendance:<br>
+                    <label><input type="radio" name="mode" value="in-person" checked> In Person</label><br>
+                    <label><input type="radio" name="mode" value="online"> Online Stream</label>
+                </p>
+                <p><input type="submit" value="Confirm RSVP"></p>
+            </form>
+        </section>
+    </main>
+
+    <hr>
+
+    <footer>
+        <p>&copy; 2026 Inquisitors AI &amp; Quiz Society</p>
+        <p>
+            Follow Us: 
+            <a href="https://linkedin.com">LinkedIn</a> | 
+            <a href="https://github.com">GitHub</a> | 
+            <a href="https://twitter.com">Twitter</a>
+        </p>
+    </footer>
+
+</body>
+</html>
